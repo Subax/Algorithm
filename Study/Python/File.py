@@ -40,7 +40,7 @@ print(10 in tuple1)  # False
 # Set: No order, No duplicate value
 set1 = {1, 2, 3}
 set2 = set(1, 2, 3)
-set3 = set("pythonn")  # set3 = {'p', 'y', 't', 'h', 'o', 'n'}
+set3 = set("pythonn")  # set3 = {'p', 'y', 't', 'h', 'o', 'n'} => Iterable object to Set
 
 emp_set1_wrong = {}  # It will be classified as a dictionary
 emp_set1 = set()
