@@ -18,3 +18,21 @@
     - git difftool -> 더 보기 쉽게 커밋 데이터와 비교해줌
     - git difftool commitID: 현재파일 vs 특정커밋(노란색 7자리가 커밋 ID) 비교 가능
         ex) git difftool ea46f1b
+
+    => 그냥 vscode 확장프로그램으로 보는 게 편함
+
+
+
+branch: 새로운 commit 경로
+
+1. git branch [branch 이름]: 새로운 branch 생성
+    -> git switch [branch 이름]: branch 변경 (원래는 main 브랜치)
+
+2. git merge: 두 브랜치를 합침
+    ->유지할 branch(ex. main)로 switch
+    -> git merge [합칠 브랜치 이름]
+        -> 서로 다른 파일을 합침: 잘 됨!
+        -> 서로 같은 파일의 같은 줄을 수정 -> 충돌
+            -> 직접 수정해야함
+            ->
+//************************GitFlow
