@@ -68,6 +68,7 @@
     "string.h": "c",
     "__split_buffer": "c",
     "forward_list": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "sstream": "cpp"
   }
 }
